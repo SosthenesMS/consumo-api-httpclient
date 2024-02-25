@@ -25,7 +25,7 @@ public class BrasilApiService {
 			HttpRequest request = HttpRequest.newBuilder().uri(uri).GET().build();
 			
 			
-			/*** PASSO 04: ENVIANDO A REQUISIÇÃO PARA O SERVIDOR ***/
+			/*** PASSO 04: ENVIANDO A REQUISIÇÃO PARA O SERVIDOR E OBTENDO A RESPOSTA ***/
 			HttpResponse response;
 			response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 			int statusCode = response.statusCode();
