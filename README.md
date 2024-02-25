@@ -32,7 +32,7 @@ HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHa
 
 
 
-###Lib Gson (Caso queria converter json -> entity):
+### Lib Gson (Caso queria converter json -> entity):
 * Usar a dependência do Gson:
 ```
 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
