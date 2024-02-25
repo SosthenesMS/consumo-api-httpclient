@@ -1,13 +1,13 @@
-package com.consumo.api.httpclient;
+package com.consumo.api.httpclient.Gson;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsumoApiHttpClientApplication {
+public class ConsumoApiHttpclientGsonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumoApiHttpClientApplication.class, args);
+		SpringApplication.run(ConsumoApiHttpclientGsonApplication.class, args);
 	}
 
 }
